@@ -1,0 +1,133 @@
+/*main*/
+
+.col-md-9,.col-lg-9{
+	padding-right: 0;
+}
+/*.col-md-3,.col-lg-3{
+	padding-left: 0;
+}*/
+#main p{
+	padding-bottom: 1em;
+}
+#main .see a{
+	color: #ffffff;
+	background-color: #74c0c3;
+	border-radius: 30%;
+	padding: 0.5em;
+}
+#main .see{
+	margin-top: 2em;
+}
+
+
+/*top-image*/
+#top{
+	height: 18em;
+	width: 100%;
+	/*margin-left: 10px;*/
+	background: url("../images/top.jpg") no-repeat;
+	background-size: cover;
+
+}
+
+/*one-About*/
+#one,#two,#three,#four{
+	margin-left: 5em;
+	margin-top: 3em;
+	margin-right: 5em;
+}
+#main h2{
+	color: #58A6AF;
+	font-size: 3.5em;
+}
+#intro{
+	color: #666666;
+	font-size: 2em;
+	/*border: 1px solid red;*/
+}
+
+/*two-things I like*/
+.item{
+	margin-bottom: 2em;
+}
+.image img{
+	width: 100%;
+	border-radius: 5%;
+}
+.item header{
+	padding-top: 1em;
+	font-family:"Microsoft YaHei";
+	text-align: center;
+}
+
+/*three-photograph*/
+#three p{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#three h4{
+	font-family:"Microsoft YaHei";
+}
+
+/*four-contect*/
+#four .row{
+	margin-bottom: 2em;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+	height: 3em;
+	width: 100%;
+	border: solid 2px #e4e4e4;
+}
+textarea{
+	height: 10em;
+	width: 100%;
+	border: solid 2px #e4e4e4;
+}
+input[type="submit"], input[type="reset"]{
+	border-radius: 5%;
+	height: 3em;
+	width: 8em;
+	margin-right: 1em;
+	margin-left: 1em;
+	background-color: #ffffff;
+	border: solid 2px #e4e4e4;
+}
+input[type="submit"].special{
+	background-color: #74c0c3;
+	color: #ffffff;
+}
+
+/*footer*/
+.copyright{
+	color: #a2a2a2;
+	margin: 3em;
+}
+
+
+/*side*/
+div #side{
+	background-color: #333333;
+	position: fixed;
+	right: 0;
+	color: #ffffff;
+	height: 100%;
+}
+#side a{
+	color: #ffffff;
+}
+#side footer{
+	padding: 1.5em;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+#side nav ul{
+	font-size: 1.5em;
+}
+#side nav ul li a.active{
+	color: #333333;
+	background-color: #ffffff;
+}
+#side footer li{
+	padding-right: 1.5em;
+}
